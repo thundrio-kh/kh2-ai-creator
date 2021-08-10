@@ -1,0 +1,8 @@
+workSize: 0
+stackSize: 512
+termSize: 512
+
+call trap_item_reduce(368, 100)
+
+label jump_start
+label jump_end

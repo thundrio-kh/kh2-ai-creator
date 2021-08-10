@@ -1,0 +1,1009 @@
+{
+    "pushImm": {
+        "opcode": "0",
+        "sub": "1",
+        "ssub": "-1",
+        "name": "pushImm",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm32",
+            "type": "imm32",
+            "aiPos": "0"
+        }
+    },
+    "pushFromPSp": {
+        "opcode": "0",
+        "sub": "2",
+        "ssub": "0",
+        "name": "pushFromPSp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "pushFromPWp": {
+        "opcode": "0",
+        "sub": "2",
+        "ssub": "1",
+        "name": "pushFromPWp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "pushFromPSpVal": {
+        "opcode": "0",
+        "sub": "2",
+        "ssub": "2",
+        "name": "pushFromPSpVal",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "pushFromPAi": {
+        "opcode": "0",
+        "sub": "2",
+        "ssub": "3",
+        "name": "pushFromPAi",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "1"
+        }
+    },
+    "pushFromFSp": {
+        "opcode": "0",
+        "sub": "3",
+        "ssub": "0",
+        "name": "pushFromFSp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "pushFromFWp": {
+        "opcode": "0",
+        "sub": "3",
+        "ssub": "1",
+        "name": "pushFromFWp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "pushFromFSpVal": {
+        "opcode": "0",
+        "sub": "3",
+        "ssub": "2",
+        "name": "pushFromFSpVal",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "pushFromFAi": {
+        "opcode": "0",
+        "sub": "3",
+        "ssub": "3",
+        "name": "pushFromFAi",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "1"
+        }
+    },
+    "popToSp": {
+        "opcode": "1",
+        "sub": "-1",
+        "ssub": "0",
+        "name": "popToSp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "popToWp": {
+        "opcode": "1",
+        "sub": "-1",
+        "ssub": "1",
+        "name": "popToWp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "popToSpVal": {
+        "opcode": "1",
+        "sub": "-1",
+        "ssub": "2",
+        "name": "popToSpVal",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "popToAi": {
+        "opcode": "1",
+        "sub": "-1",
+        "ssub": "3",
+        "name": "popToAi",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "1"
+        }
+    },
+    "memcpyToSp": {
+        "opcode": "2",
+        "sub": "-1",
+        "ssub": "0",
+        "name": "memcpyToSp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": [
+            {
+                "@name": "imm16",
+                "@type": "imm16",
+                "@aiPos": "0"
+            },
+            {
+                "@name": "imm16_2",
+                "@type": "imm16",
+                "@aiPos": "0"
+            }
+        ]
+    },
+    "memcpyToWp": {
+        "opcode": "2",
+        "sub": "-1",
+        "ssub": "1",
+        "name": "memcpyToWp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": [
+            {
+                "@name": "imm16",
+                "@type": "imm16",
+                "@aiPos": "0"
+            },
+            {
+                "@name": "imm16_2",
+                "@type": "imm16",
+                "@aiPos": "0"
+            }
+        ]
+    },
+    "memcpyToSpVal": {
+        "opcode": "2",
+        "sub": "-1",
+        "ssub": "2",
+        "name": "memcpyToSpVal",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": [
+            {
+                "@name": "imm16",
+                "@type": "imm16",
+                "@aiPos": "0"
+            },
+            {
+                "@name": "imm16_2",
+                "@type": "imm16",
+                "@aiPos": "0"
+            }
+        ]
+    },
+    "memcpyToSpAi": {
+        "opcode": "2",
+        "sub": "-1",
+        "ssub": "3",
+        "name": "memcpyToSpAi",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": [
+            {
+                "@name": "imm16",
+                "@type": "imm16",
+                "@aiPos": "0"
+            },
+            {
+                "@name": "imm16_2",
+                "@type": "imm16",
+                "@aiPos": "1"
+            }
+        ]
+    },
+    "fetchValue": {
+        "opcode": "3",
+        "sub": "-1",
+        "ssub": "-1",
+        "name": "fetchValue",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "memcpy": {
+        "opcode": "4",
+        "sub": "-1",
+        "ssub": "-1",
+        "name": "memcpy",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "ssub",
+            "type": "ssub",
+            "aiPos": "0"
+        }
+    },
+    "cfti": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "0",
+        "name": "cfti",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "neg": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "2",
+        "name": "neg",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "inv": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "3",
+        "name": "inv",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "eqz": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "8",
+        "name": "eqz",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "abs": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "5",
+        "name": "abs",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "msb": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "6",
+        "name": "msb",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "info": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "7",
+        "name": "info",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "neqz": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "9",
+        "name": "neqz",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "msbi": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "10",
+        "name": "msbi",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "ipos": {
+        "opcode": "5",
+        "sub": "0",
+        "ssub": "11",
+        "name": "ipos",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "citf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "1",
+        "name": "citf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "negf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "2",
+        "name": "negf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "absf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "5",
+        "name": "absf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "infzf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "6",
+        "name": "infzf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "infoezf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "7",
+        "name": "infoezf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "eqzf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "8",
+        "name": "eqzf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "neqzf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "9",
+        "name": "neqzf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "supoezf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "10",
+        "name": "supoezf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "supzf": {
+        "opcode": "5",
+        "sub": "1",
+        "ssub": "11",
+        "name": "supzf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "add": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "0",
+        "name": "add",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "sub": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "1",
+        "name": "sub",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "mul": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "2",
+        "name": "mul",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "div": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "3",
+        "name": "div",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "mod": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "4",
+        "name": "mod",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "and": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "5",
+        "name": "and",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "or": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "6",
+        "name": "or",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "xor": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "7",
+        "name": "xor",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "sll": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "8",
+        "name": "sll",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "sra": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "9",
+        "name": "sra",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "eqzv": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "10",
+        "name": "eqzv",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "neqzv": {
+        "opcode": "6",
+        "sub": "0",
+        "ssub": "11",
+        "name": "neqzv",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "addf": {
+        "opcode": "6",
+        "sub": "1",
+        "ssub": "0",
+        "name": "addf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "subf": {
+        "opcode": "6",
+        "sub": "1",
+        "ssub": "1",
+        "name": "subf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "mulf": {
+        "opcode": "6",
+        "sub": "1",
+        "ssub": "2",
+        "name": "mulf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "divf": {
+        "opcode": "6",
+        "sub": "1",
+        "ssub": "3",
+        "name": "divf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "modf": {
+        "opcode": "6",
+        "sub": "1",
+        "ssub": "4",
+        "name": "modf",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "jmp": {
+        "opcode": "7",
+        "sub": "-1",
+        "ssub": "0",
+        "name": "jmp",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "1",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "1"
+        }
+    },
+    "jnz": {
+        "opcode": "7",
+        "sub": "-1",
+        "ssub": "1",
+        "name": "jnz",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "1",
+        "conditional": "1",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "1"
+        }
+    },
+    "jz": {
+        "opcode": "7",
+        "sub": "-1",
+        "ssub": "2",
+        "name": "jz",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "1",
+        "conditional": "1",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "1"
+        }
+    },
+    "gosub": {
+        "opcode": "8",
+        "sub": "-1",
+        "ssub": "-1",
+        "name": "gosub",
+        "syscall": "0",
+        "gosub": "1",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": [
+            {
+                "@name": "ssub",
+                "@type": "ssub",
+                "@aiPos": "0"
+            },
+            {
+                "@name": "imm16",
+                "@type": "imm16",
+                "@aiPos": "1"
+            }
+        ]
+    },
+    "halt": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "0",
+        "name": "halt",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "exit": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "1",
+        "name": "exit",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "1",
+        "gosubRet": "0"
+    },
+    "ret": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "2",
+        "name": "ret",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "1"
+    },
+    "drop": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "3",
+        "name": "drop",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "dup": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "5",
+        "name": "dup",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "sin": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "6",
+        "name": "sin",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "cos": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "7",
+        "name": "cos",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "degr": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "8",
+        "name": "degr",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "radd": {
+        "opcode": "9",
+        "sub": "-1",
+        "ssub": "9",
+        "name": "radd",
+        "syscall": "0",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0"
+    },
+    "syscall": {
+        "opcode": "10",
+        "sub": "-1",
+        "ssub": "-1",
+        "name": "syscall",
+        "syscall": "1",
+        "gosub": "0",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": {
+            "name": "imm16",
+            "type": "imm16",
+            "aiPos": "0"
+        }
+    },
+    "gosub32": {
+        "opcode": "11",
+        "sub": "-1",
+        "ssub": "-1",
+        "name": "gosub32",
+        "syscall": "0",
+        "gosub": "1",
+        "jump": "0",
+        "conditional": "0",
+        "neverReturn": "0",
+        "gosubRet": "0",
+        "Arg": [
+            {
+                "@name": "ssub",
+                "@type": "ssub",
+                "@aiPos": "0"
+            },
+            {
+                "@name": "imm32",
+                "@type": "imm32",
+                "@aiPos": "1"
+            }
+        ]
+    }
+}

@@ -1,0 +1,4 @@
+call trap_special_last_xemnus_laser_end()
+
+label jump_start
+label jump_end

@@ -1,0 +1,9 @@
+workSize: 0
+stackSize: 512
+termSize: 512
+
+constant form_id 7 # maybe
+call trap_saveram_set_form_ability(form_id, 525)
+
+label jump_start
+label jump_end
