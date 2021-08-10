@@ -16,6 +16,7 @@ name = filename.split(".")[0]
 
 PRINT_ASSEMBLY = True
 
+DEBUG_INSTRUCTIONS = False
 
 def doConst(management, line_syntax):
     try:
@@ -82,18 +83,27 @@ def assembleBDX(management):
 
     for instruction in management["instructions"]:
         if instruction.startswith("trap"):
-            hexdump += bytearray([0xa,0])
+            trapbytes = bytearray([])
+            trapbytes += bytearray([0xa,0])
             trap = traps[instruction]
-            hexdump += bytearray(int(trap["tableIdx"]))
-            hexdump += bytearray(struct.pack("<h", int(trap["funcIdx"])))
+
+            trapbytes += bytearray(int(trap["tableIdx"]))
+            trapbytes += bytearray(struct.pack("<h", int(trap["funcIdx"])))
+
+            if DEBUG_INSTRUCTIONS:
+                print("{} = {}".format(instruction, ' '.join([hex(i)[2:].zfill(2) for i in trapbytes])))
+            hexdump += trapbytes
         else:
             split = instruction.split(" ")
             instr = split[0]
             if instr not in instructions:
                 raise Exception("Instruction not found: {}".format(instr))
-            hexdump += bytearray(instructions[instr])
+            instrbytes = bytearray(instructions[instr])
             if instr == "pushImm":
-                hexdump += bytearray(struct.pack("<i", int(split[1])))
+                instrbytes = bytearray(struct.pack("<i", int(split[1])))
+            if DEBUG_INSTRUCTIONS:
+                print("{} = {}".format(instruction, ' '.join([hex(i)[2:].zfill(2) for i in instrbytes])))
+            hexdump += instrbytes
 
     # for l in range(len(management["end_labels"])):
     #     label = management["end_labels"][l]
