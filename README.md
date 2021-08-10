@@ -19,7 +19,8 @@ AreaSettings 0 -1
 
 and here's an example of a mod.yml
 
-```assets:
+```
+assets:
 - method: binarc
   name: ard/hb04.ard
   source:
@@ -43,7 +44,8 @@ and here's an example of a mod.yml
     source:
     - name: files\ard\hb04\test.areadatascript
     type: AreaDataScript
-title: Randomizer Seed```
+title: Randomizer Seed
+```
 
 VERY LIMITED right now
 
